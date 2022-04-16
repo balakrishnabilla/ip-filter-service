@@ -1,0 +1,5 @@
+{
+  "sourceCidr": "10.2.0.1/11",
+  "destinationCidr": "192.169.0.1/23",
+  "alloedDenyInd": "1"
+}
