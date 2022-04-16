@@ -1,6 +1,6 @@
-package com.upworks.ipfilterservice.model;
+package com.ipfilterservice.model;
 
-import com.upworks.ipfilterservice.validator.IPAddress;
+import com.ipfilterservice.validator.IPAddress;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;

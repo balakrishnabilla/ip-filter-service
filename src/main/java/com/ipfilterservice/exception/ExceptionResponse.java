@@ -1,4 +1,4 @@
-package com.upworks.ipfilterservice.exception;
+package com.ipfilterservice.exception;
 
 import java.time.LocalTime;
 

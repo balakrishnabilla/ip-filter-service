@@ -1,6 +1,6 @@
-package com.upworks.ipfilterservice.repository;
+package com.ipfilterservice.repository;
 
-import com.upworks.ipfilterservice.entity.FilterRuleEntity;
+import com.ipfilterservice.entity.FilterRuleEntity;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.stereotype.Repository;

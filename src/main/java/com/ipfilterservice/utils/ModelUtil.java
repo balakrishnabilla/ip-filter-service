@@ -1,7 +1,7 @@
-package com.upworks.ipfilterservice.utils;
+package com.ipfilterservice.utils;
 
-import com.upworks.ipfilterservice.entity.FilterRuleEntity;
-import com.upworks.ipfilterservice.model.FilterRule;
+import com.ipfilterservice.entity.FilterRuleEntity;
+import com.ipfilterservice.model.FilterRule;
 
 public class ModelUtil {
 

@@ -1,4 +1,4 @@
-package com.upworks.ipfilterservice.entity;
+package com.ipfilterservice.entity;
 
 import lombok.Builder;
 import lombok.Getter;

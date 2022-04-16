@@ -1,6 +1,6 @@
-package com.upworks.ipfilterservice;
+package com.ipfilterservice;
 
-import com.upworks.ipfilterservice.cache.FilterRuleCache;
+import com.ipfilterservice.cache.FilterRuleCache;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
@@ -8,7 +8,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
 public class IpFilterServiceApplication implements CommandLineRunner {
-  @Autowired FilterRuleCache filterRuleCache;
+  @Autowired
+  FilterRuleCache filterRuleCache;
 
   public static void main(String[] args) {
     SpringApplication.run(IpFilterServiceApplication.class, args);

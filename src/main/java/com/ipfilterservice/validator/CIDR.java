@@ -1,7 +1,7 @@
 /**
  *
  */
-package com.upworks.ipfilterservice.validator;
+package com.ipfilterservice.validator;
 
 import javax.validation.Constraint;
 import javax.validation.Payload;

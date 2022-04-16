@@ -1,14 +1,10 @@
 /**
  *
  */
-package com.upworks.ipfilterservice.validator;
-
-import com.upworks.ipfilterservice.exception.ExceptionResponse;
-import org.apache.commons.net.util.SubnetUtils;
+package com.ipfilterservice.validator;
 
 import javax.validation.ConstraintValidator;
 import javax.validation.ConstraintValidatorContext;
-import java.time.LocalDate;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 

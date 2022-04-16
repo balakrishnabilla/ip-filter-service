@@ -1,10 +1,10 @@
-package com.upworks.ipfilterservice.service;
+package com.ipfilterservice.service;
 
-import com.upworks.ipfilterservice.cache.FilterRuleCache;
-import com.upworks.ipfilterservice.model.FilterRule;
-import com.upworks.ipfilterservice.model.RuleInput;
-import com.upworks.ipfilterservice.repository.FilterRuleRepository;
-import com.upworks.ipfilterservice.utils.ModelUtil;
+import com.ipfilterservice.cache.FilterRuleCache;
+import com.ipfilterservice.model.RuleInput;
+import com.ipfilterservice.repository.FilterRuleRepository;
+import com.ipfilterservice.model.FilterRule;
+import com.ipfilterservice.utils.ModelUtil;
 import org.apache.commons.net.util.SubnetUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

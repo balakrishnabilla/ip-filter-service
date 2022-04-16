@@ -1,15 +1,15 @@
-package com.upworks.ipfilterservice;
+package com.ipfilterservice;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.ObjectWriter;
 import com.fasterxml.jackson.databind.SerializationFeature;
-import com.upworks.ipfilterservice.cache.FilterRuleCache;
-import com.upworks.ipfilterservice.controller.FilterRuleController;
-import com.upworks.ipfilterservice.model.FilterRule;
-import com.upworks.ipfilterservice.model.RuleInput;
-import com.upworks.ipfilterservice.service.FilterRuleService;
+import com.ipfilterservice.cache.FilterRuleCache;
+import com.ipfilterservice.model.RuleInput;
+import com.ipfilterservice.controller.FilterRuleController;
+import com.ipfilterservice.model.FilterRule;
+import com.ipfilterservice.service.FilterRuleService;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -31,10 +31,9 @@ import static org.mockito.Mockito.doNothing;
 import static org.mockito.Mockito.when;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.get;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
-
 @RunWith(SpringRunner.class)
 @WebMvcTest(FilterRuleController.class)
-public class FilterRuleControllerTest {
+public class FilterRuleControllerTests {
   public static final String BASE_URL = "/filterRules";
   @Autowired private MockMvc mockMvc;
 
@@ -44,7 +43,7 @@ public class FilterRuleControllerTest {
 
   private static final ObjectMapper mapper = new ObjectMapper();
 
-  public FilterRuleControllerTest() {}
+  public FilterRuleControllerTests() {}
 
   @Test
   public void testCreateAndReturnResponseCreated() throws Exception {

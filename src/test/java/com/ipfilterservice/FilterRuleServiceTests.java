@@ -1,20 +1,17 @@
-package com.upworks.ipfilterservice;
+package com.ipfilterservice;
 
-import com.upworks.ipfilterservice.cache.FilterRuleCache;
-import com.upworks.ipfilterservice.entity.FilterRuleEntity;
-import com.upworks.ipfilterservice.model.FilterRule;
-import com.upworks.ipfilterservice.model.RuleInput;
-import com.upworks.ipfilterservice.repository.FilterRuleRepository;
-import com.upworks.ipfilterservice.service.FilterRuleService;
-import com.upworks.ipfilterservice.utils.ModelUtil;
+import com.ipfilterservice.cache.FilterRuleCache;
+import com.ipfilterservice.entity.FilterRuleEntity;
+import com.ipfilterservice.model.FilterRule;
+import com.ipfilterservice.model.RuleInput;
+import com.ipfilterservice.repository.FilterRuleRepository;
+import com.ipfilterservice.service.FilterRuleService;
+import com.ipfilterservice.utils.ModelUtil;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.jupiter.api.AfterEach;
-import org.junit.jupiter.api.BeforeEach;
-import org.junit.jupiter.api.extension.ExtendWith;
 import org.junit.runner.RunWith;
 import org.springframework.boot.test.mock.mockito.MockBean;
-import org.springframework.test.context.junit.jupiter.SpringExtension;
 import org.springframework.test.context.junit4.SpringRunner;
 
 import java.util.ArrayList;
@@ -25,9 +22,8 @@ import java.util.concurrent.ConcurrentHashMap;
 
 import static junit.framework.TestCase.assertEquals;
 import static org.mockito.Mockito.*;
-
 @RunWith(SpringRunner.class)
-public class FilterRuleServiceTest {
+public class FilterRuleServiceTests {
 
   public static final String DENIED = "Denied";
   public static final String ALLOWED = "Allowed";

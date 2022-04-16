@@ -1,9 +1,9 @@
-package com.upworks.ipfilterservice.cache;
+package com.ipfilterservice.cache;
 
-import com.upworks.ipfilterservice.entity.FilterRuleEntity;
-import com.upworks.ipfilterservice.model.FilterRule;
-import com.upworks.ipfilterservice.repository.FilterRuleRepository;
-import com.upworks.ipfilterservice.utils.ModelUtil;
+import com.ipfilterservice.entity.FilterRuleEntity;
+import com.ipfilterservice.model.FilterRule;
+import com.ipfilterservice.repository.FilterRuleRepository;
+import com.ipfilterservice.utils.ModelUtil;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 

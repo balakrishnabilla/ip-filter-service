@@ -1,7 +1,7 @@
 /**
  *
  */
-package com.upworks.ipfilterservice.validator;
+package com.ipfilterservice.validator;
 
 import org.apache.commons.net.util.SubnetUtils;
 

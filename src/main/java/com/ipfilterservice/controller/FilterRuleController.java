@@ -1,8 +1,8 @@
-package com.upworks.ipfilterservice.controller;
+package com.ipfilterservice.controller;
 
-import com.upworks.ipfilterservice.model.FilterRule;
-import com.upworks.ipfilterservice.model.RuleInput;
-import com.upworks.ipfilterservice.service.FilterRuleService;
+import com.ipfilterservice.model.RuleInput;
+import com.ipfilterservice.service.FilterRuleService;
+import com.ipfilterservice.model.FilterRule;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
