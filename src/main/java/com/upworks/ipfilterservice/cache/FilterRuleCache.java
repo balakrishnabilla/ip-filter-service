@@ -1,6 +1,5 @@
 package com.upworks.ipfilterservice.cache;
 
-import com.sun.org.apache.xpath.internal.operations.Mod;
 import com.upworks.ipfilterservice.entity.FilterRuleEntity;
 import com.upworks.ipfilterservice.model.FilterRule;
 import com.upworks.ipfilterservice.repository.FilterRuleRepository;
